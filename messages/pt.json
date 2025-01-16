@@ -58,7 +58,7 @@
     "message-placeholder": "Vamos trabalhar juntos!",
     "send": "Enviar",
     "success": "Sucesso!",
-    "success-message": "Sua mensagem foi enviada com sucesso. Entrarei em contato em breve."
+    "success-message": "Sua mensagem foi enviada com sucesso. Entrarei em contato o mais breve possível."
   },
   "Footer": {
     "madeWith": "Feito com Next.JS e React"

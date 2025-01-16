@@ -35,21 +35,30 @@
     "view": "Live Project",
     "source": "View Source Code",
     "storem": {
-      "desc": "Storem is a full-stack application designed to provide a practical and secure experience for managing and sharing files in the cloud."
+      "desc": "Storem is a web application that allows users to manage and share files in the cloud."
     },
     "open-vinyl-box": {
-      "desc": "Open Vinyl Box is a web application that allows users to manage their vinyl collection. It was developed using React and Node.js."
+      "desc": "Open Vinyl Box is an e-commerce focused on selling vinyl records and items related to the music world."
+    },
+    "yabbl": {
+      "desc": "Yabbl is a web application that allows users to create and join real-time chat rooms."
+    },
+    "ygibringer": {
+      "desc": "YgiBringer is a desktop application that connects to the browser to manage the state and facilitate the setup of Instagram accounts."
     }
   },
   "Contact": {
     "title": "Contact",
-    "description":  "Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me any interesting topic",
+    "description": "Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me any interesting topic",
     "name": "Name",
     "name-placeholder": "Your name",
     "email": "Email",
+    "email-placeholder": "your_email@example.com",
     "message": "Message",
     "message-placeholder": "Let's work together!",
-    "send": "Send"
+    "send": "Send",
+    "success": "Success!",
+    "success-message": "Your message was sent successfully. I'll be in contact as soon as possible."
   },
   "Footer": {
     "madeWith": "Made with Next.JS and React"
