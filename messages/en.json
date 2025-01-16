@@ -1,0 +1,63 @@
+{
+  "Metadata": {
+    "title": "Douglas Brum",
+    "description": "Hey, I'm Douglas Brum, a full-stack developer"
+  },
+  "Nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language",
+    "dark-theme": "Dark Theme",
+    "light-theme": "Light Theme"
+  },
+  "Home": {
+    "presentation": "Hey, my name is",
+    "description": "I'm a ",
+    "role": "Full-stack Developer",
+    "resume": "Resume",
+    "About": {
+      "title": "About me",
+      "description": "I'm a full-stack developer with experience in web and mobile development. Currently, I'm focused on web applications development with React and Node.js."
+    }
+  },
+  "Stack": {
+    "title": "Tech Stack",
+    "description": "I have experience with the following technologies:",
+    "language": "Languages",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "db": "Databases",
+    "infra": "Infrastructure"
+  },
+  "Projects": {
+    "title": "Projects",
+    "view": "Live Project",
+    "source": "View Source Code",
+    "storem": {
+      "desc": "Storem is a full-stack application designed to provide a practical and secure experience for managing and sharing files in the cloud."
+    },
+    "open-vinyl-box": {
+      "desc": "Open Vinyl Box is a web application that allows users to manage their vinyl collection. It was developed using React and Node.js."
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "description":  "Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me any interesting topic",
+    "name": "Name",
+    "name-placeholder": "Your name",
+    "email": "Email",
+    "message": "Message",
+    "message-placeholder": "Let's work together!",
+    "send": "Send"
+  },
+  "Footer": {
+    "madeWith": "Made with Next.JS and React"
+  },
+  "ErrorMessages": {
+    "minString": "Must be at least {min} characters",
+    "maxString": "Must be at most {max} characters",
+    "invalidEmail": "Invalid email",
+    "required": "Required field"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Metadata": {
+    "title": "Douglas Brum",
+    "description": "Olá, eu me chamo Douglas Brum e sou um desenvolvedor full-stack"
+  },
+  "Nav": {
+    "home": "Inicial",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "language": "Idioma",
+    "dark-theme": "Tema Escuro",
+    "light-theme": "Tema Claro"
+  },
+  "Home": {
+    "presentation": "Olá, eu me chamo",
+    "description": "Sou um ",
+    "role": "Desenvolvedor Full-stack",
+    "resume": "Currículo",
+    "About": {
+      "title": "Sobre mim",
+      "description": "Sou um desenvolvedor full-stack com experiência em desenvolvimento web e mobile. Atualmente, estou focado em desenvolvimento de aplicações web com React e Node.js."
+    }
+  },
+  "Stack": {
+    "title": "Tecnologias",
+    "description": "Eu possuo experiência com as seguintes tecnologias:",
+    "language": "Linguagens",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "db": "Banco de Dados",
+    "infra": "Infraestrutura"
+  },
+  "Projects": {
+    "title": "Projetos em Destaque",
+    "view": "Abrir Projeto",
+    "source": "Visualizar Código Fonte",
+    "storem": {
+        "desc": "Storem é uma aplicação web que permite que usuários gerenciem e compartilhem arquivos na nuvem."
+    },
+    "open-vinyl-box": {
+      "desc": "Open Vinyl Box é um e-commerce focado na venda de discos viníl e itens relacionados ao universo da música."
+    },
+    "yabbl": {
+      "desc": "Yabbl é uma aplicação web que permite que usuários criem e participem de salas de bate-papo em tempo real."
+    },
+    "ygibringer": {
+        "desc": "YgiBringer é uma aplicação desktop que conecta ao navegador para gerenciar o estado e facilitar a configuração de contas do Instagram."
+    }
+  },
+  "Contact": {
+    "title": "Contato",
+    "description":  "Se você tiver uma pergunta ou apenas quiser dizer oi, farei o meu melhor para responder! Fique à vontade para me enviar qualquer assunto interessante por e-mail.",
+    "name": "Nome",
+    "name-placeholder": "Seu nome",
+    "email": "E-mail",
+    "email-placeholder": "seu_email@exemplo.com",
+    "message": "Mensagem",
+    "message-placeholder": "Vamos trabalhar juntos!",
+    "send": "Enviar",
+    "success": "Sucesso!",
+    "success-message": "Sua mensagem foi enviada com sucesso. Entrarei em contato em breve."
+  },
+  "Footer": {
+    "madeWith": "Feito com Next.JS e React"
+  },
+  "ErrorMessages": {
+    "minString": "Deve ter pelo menos {min} caracteres",
+    "maxString": "Deve ter no máximo {max} caracteres",
+    "invalidEmail": "E-mail inválido",
+    "required": "Campo obrigatório"
+  }
+}
