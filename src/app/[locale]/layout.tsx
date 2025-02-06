@@ -7,6 +7,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {ThemeProvider} from '@/contexts/theme-provider';
 import {Manrope} from 'next/font/google';
 import {Toaster} from '@/components/ui/toaster';
+import {Metadata} from 'next';
 
 export async function generateMetadata({params: {locale}}: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({locale, namespace: 'Metadata'});
