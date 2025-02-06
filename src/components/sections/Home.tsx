@@ -1,5 +1,5 @@
 import React from 'react';
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import {AiFillGithub, AiFillLinkedin, AiOutlineInstagram} from 'react-icons/ai';
 import {RiBlueskyFill, RiTwitterXFill} from 'react-icons/ri';
 import {Button} from '@/components/ui/button';
@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 const Home = () => {
   const t = useTranslations('Home');
+  const locale = useLocale();
 
   return (
     <main className="bg-primary text-primary-foreground">
@@ -43,8 +44,10 @@ const Home = () => {
                 </a>
               </div>
               <div>
-                <Button variant={'secondary'} size={'lg'}>
-                  {t('resume')}
+                <Button variant={'secondary'} size={'lg'} asChild>
+                  <a href={locale === 'pt' ? '/assets/pdf/curriculum_pt.pdf' : '/assets/pdf/curriculum_en.pdf'}>
+                    {t('resume')}
+                  </a>
                 </Button>
               </div>
             </div>
